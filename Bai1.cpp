@@ -1,4 +1,5 @@
-#include <iostream>
+#include <stdio.h>
+
 void Uoc_Lon_Nhat(int a, int b){
     int Uoc;
     if(a > b) Uoc = a - b;

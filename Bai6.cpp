@@ -1,8 +1,7 @@
 #define MAX 100
 #define for_loop(i, n) for (int i = 1; i <= n; i++)
-#include <iostream>
+#include <stdio.h>
 
-using namespace std;
 void LK_NT(int n)
 {
     bool check[MAX + 1];
@@ -29,6 +28,6 @@ int main()
 {
     int n;
     printf("Nhap n");
-    cin >> n;
+    scanf("%d", &n);
     LK_NT(n);
 }

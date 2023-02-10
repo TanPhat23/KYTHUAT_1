@@ -1,6 +1,6 @@
 #define MAX 100
-#include <iostream>
-using namespace std;
+#include <stdio.h>
+
 void Fibonaci(int n)
 {
     int F[100 + 1];
@@ -16,7 +16,7 @@ int main()
 {
     int n;
     printf("Nhap n");
-    cin >> n;
+    scanf("%d", &n);
     for (int i = 1; i < n; i++)
     {
         Fibonaci(i);

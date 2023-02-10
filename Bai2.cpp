@@ -1,5 +1,5 @@
-#include <iostream>
-using namespace std;
+#include <stdio.h>
+
 void TimSTN(int n)
 {
     int a, b, c;
@@ -19,6 +19,6 @@ int main()
 {
     int n;
     printf("Nhap n");
-    cin >> n;
+    scanf("%d", &n);
     TimSTN(n);
 }

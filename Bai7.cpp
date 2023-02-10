@@ -1,4 +1,4 @@
-#include <iostream>
+#include <stdio.h>
 
 using namespace std;
 
@@ -17,6 +17,6 @@ int main()
 {
     int n;
     printf("Nhap n");
-    cin >> n;
+    scanf("%d", &n);
     LK_TSNT(n);
 }

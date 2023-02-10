@@ -1,5 +1,5 @@
-#include <iostream>
-#include <cmath>
+#include <stdio.h>
+#include <math.h>
 using namespace std;
 bool KT_NT(int n)
 {
@@ -22,6 +22,6 @@ int main()
 {
     int n;
     printf("Nhap n");
-    cin >> n;
+    scanf("%d", &n);
     LK_NT(n);
 }
