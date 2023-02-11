@@ -1,13 +1,14 @@
 #include <stdio.h>
 
-void Uoc_Lon_Nhat(int a, int b){
-    int Uoc;
-    if(a > b) Uoc = a - b;
-    else Uoc = b - a;
-    printf("Uoc chung la %d", Uoc);
+int Uoc_Lon_Nhat(int a, int b)
+{
+    while (a != b)
+        a > b ? a -= b : b -= a;
+    printf("Uoc so chung lon nhat la %d", a);
 }
-int main(){
-    int a,b;
+int main()
+{
+    int a, b;
     printf("Nhap a");
     scanf("%d", &a);
     printf("Nhap b");
